@@ -27,7 +27,6 @@ function! s:source.gather_candidates(context)
     call add(res, {'word': word, 'abbr': abbr})
   endfor
 
-  echom string(res)
   return res
 endfunction
 
