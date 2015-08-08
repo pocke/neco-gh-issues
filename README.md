@@ -19,7 +19,7 @@ and `:NeoBundleInstall`
 Required
 ----------------
 
-- [NeoBundle](https://github.com/Shougo/neobundle.vim)
+- [neocomplete](https://github.com/Shougo/neocomplete.vim)
 - [hub](https://github.com/github/hub)
 
 Screen cast
