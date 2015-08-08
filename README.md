@@ -8,19 +8,21 @@ This plugin completes github issues when you're editing commit message.
 Installation
 --------------
 
+### Required
+
+- [neocomplete](https://github.com/Shougo/neocomplete.vim)
+- [hub](https://github.com/github/hub)
+
+
 If you use [NeoBundle](https://github.com/Shougo/neobundle.vim).
 
 ```vim
+NeoBundle 'Shougo/neocomplete.vim'
 NeoBundle 'pocke/neco-gh-issues'
 ```
 
 and `:NeoBundleInstall`
 
-Required
-----------------
-
-- [neocomplete](https://github.com/Shougo/neocomplete.vim)
-- [hub](https://github.com/github/hub)
 
 Screen cast
 -----------
