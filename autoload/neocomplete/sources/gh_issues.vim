@@ -22,8 +22,9 @@ function! s:source.gather_candidates(context)
 
   let res = []
   for str in out
-    let word  = '#' . substitute(str, s:re, '\= submatch(1)', '')
-    let abbr  = word . ' ' . substitute(str, s:re, '\= submatch(2)', '')
+    let m = matchlist(str, s:re)
+    let word = '#' . m[1]
+    let abbr = word . ' ' . m[2]
     call add(res, {'word': word, 'abbr': abbr})
   endfor
 
